@@ -1,42 +1,104 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+}
+
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Layout */
+.container {
+  margin-top: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar */
+.navbar {
+  border-radius: 10px;
+  padding: 14px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
+/* Cards */
 .card {
-  padding: 2em;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  margin-bottom: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+/* Botones */
+.btn {
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Formulario */
+form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+  border-radius: 10px;
+  padding: 10px;
+  color: #212529;
+  background-color: #ffffff;
+}
+
+/* Check y radio */
+.form-check {
+  margin-bottom: 10px;
+}
+
+/* Alertas */
+.alert {
+  border-radius: 10px;
+}
+
+/* Badges */
+.badge {
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+/* Progress */
+.progress {
+  height: 18px;
+  border-radius: 10px;
+}
+
+/* Tabla */
+.table {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Lista */
+.list-group-item {
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 14px;
+}
+
+/* Footer */
+footer {
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 20px;
 }
